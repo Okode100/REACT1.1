@@ -1,0 +1,59 @@
+body{
+    background-color: #282d35;
+
+}
+nav{
+    display:flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.133);
+    height: 90PX;
+    padding: 30px 25px;
+    margin:0 0 0 0;
+}
+nav > h3, nav > h4 {
+    margin: 0px;
+}
+nav > img {
+    height: 30px;
+    margin-right: 10px;
+    font-weight: 700;
+}
+nav > h3 {
+    margin-right: auto;
+    color: #04c5fa;
+    font-weight: 700;
+    font-size: 22px;
+}
+ nav > h4 {
+    color: hsl(210, 96%, 50%);
+    font-weight: 700;
+}
+main{
+    padding: 2px 14px;
+    margin: 0;
+    color: white;
+    background-image: url(logo.svg);
+    background-repeat: no-repeat;
+    background-position:right 100%;
+   
+    
+    
+}
+.main--facts {
+    margin:0;
+    font-size: 39px;
+   
+    
+}
+.main--facts > li {
+    font-size: 20px;
+    margin-top: 25px;
+    max-width: 400px;      
+    
+
+}
+.main--facts > li::marker {
+    font-size: 1.2rem;
+    color: #04c5fa;
+    font-weight: 700;
+}
